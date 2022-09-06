@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demoqa.test.runners.AddWebTableRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="SQAT1MDEWIN63" time="0.0">
+  <properties/>
+  <system-out><![CDATA[11:19:49.986 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\serenity.properties 
+11:19:50.040 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\serenity.properties 
+11:19:50.040 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\serenity.properties 
+11:19:50.072 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:19:50.072 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/main/resources/drivers/chromedriver.exe
+11:19:50.072 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--disable-popup-blocking,--incognito, --disable-download-notification,--start-maximized,--test-type,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorize-plugins, --disable-extensions, --disable-dev-shm-usage
+11:19:50.072 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+11:19:50.705 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/SQA/Documents/ESTUDIO/PERFORMANCE/screenplayfirts/src/test/resources/features/addTables.feature
+11:19:51.054 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\serenity.properties 
+11:19:51.070 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\serenity.properties 
+11:19:51.070 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\serenity.properties 
+11:19:51.078 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:19:51.078 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/main/resources/drivers/chromedriver.exe
+11:19:51.078 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.switches=--disable-popup-blocking,--incognito, --disable-download-notification,--start-maximized,--test-type,--ignore-certificate-errors, --allow-running-insecure-content, --disable-translate, --always-authorize-plugins, --disable-extensions, --disable-dev-shm-usage
+11:19:51.078 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+11:19:51.102 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+11:19:51.110 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@48dbd6a5
+11:19:51.118 [Test worker] INFO  - Test Suite Started: add web table
+
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m32,485s
+
+
+11:20:23.198 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:20:23.430 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:20:23.450 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@457c11a3
+11:20:23.450 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome add web table:add web table
+11:20:23.450 [pool-1-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@457c11a3: Generating report for test outcome: add web table:add web table
+11:20:23.459 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for add web table to file C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\target\site\serenity\e8a24fb35eff4d8f52e1deb5360757ad27c18762d397d1587249dacd7fb08156.json (using temp file C:\Users\SQA\Documents\ESTUDIO\PERFORMANCE\screenplayfirts\target\site\serenity\e8a24fb35eff4d8f52e1deb5360757ad27c18762d397d1587249dacd7fb08156.jsonac90f02b-c416-41da-8dd8-860862877ee0)
+11:20:23.521 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome add web table:add web table done
+11:20:23.521 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:20:23.521 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 71 ms
+11:20:23.521 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@19a367e8
+11:20:23.521 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome add web table:add web table
+11:20:23.521 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@19a367e8: Generating report for test outcome: add web table:add web table
+11:20:23.579 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature add web table
+11:20:23.602 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome add web table-[]: Optional[Requirement{name='add web table', type='feature' parent = 'null', cardNumber='null'}]
+11:20:23.602 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome add web table-[]: Optional[Requirement{name='add web table', type='feature' parent = 'null', cardNumber='null'}]
+11:20:23.659 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome add web table-[]: Optional[Requirement{name='add web table', type='feature' parent = 'null', cardNumber='null'}]
+11:20:23.659 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome add web table-[]: Optional[Requirement{name='add web table', type='feature' parent = 'null', cardNumber='null'}]
+11:20:23.679 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in e8a24fb35eff4d8f52e1deb5360757ad27c18762d397d1587249dacd7fb08156_screenshots.html
+11:20:24.561 [pool-2-thread-1] DEBUG serenity.reporting - Generated report e8a24fb35eff4d8f52e1deb5360757ad27c18762d397d1587249dacd7fb08156_screenshots.html in 882 ms
+11:20:24.571 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in e8a24fb35eff4d8f52e1deb5360757ad27c18762d397d1587249dacd7fb08156.html
+11:20:25.308 [pool-2-thread-1] DEBUG serenity.reporting - Generated report e8a24fb35eff4d8f52e1deb5360757ad27c18762d397d1587249dacd7fb08156.html in 737 ms
+11:20:25.308 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome add web table:add web table done
+11:20:25.308 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:20:25.308 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 1787 ms
+11:20:25.637 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/SQA/Documents/ESTUDIO/PERFORMANCE/screenplayfirts/src/test/resources/features/addTables.feature
+11:20:25.637 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+11:20:25.637 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
