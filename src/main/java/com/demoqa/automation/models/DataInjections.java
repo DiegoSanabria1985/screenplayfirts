@@ -8,8 +8,8 @@ public class DataInjections {
 
     Faker faker = new Faker(new Locale("on US"));
 
-    private String fullname, currentAdress, email, permanentAdress,
-            search, lastname, number, addres, valida, validacion, subject, extensionvalidation;
+    private String fullname, currentAdress, email, permanentAdress, filepath, sheetName,
+            search, lastname, number, addres, valida, validacion, subject, extensionvalidation, logincredentialName, validationshhet;
 
     public String getFirstnameweb() {
         return firstnameweb;
@@ -93,6 +93,18 @@ public class DataInjections {
         return extensionvalidation;
     }
 
+    public String getFilepath() {
+        return filepath;
+    }
+
+    public String getSheetName() {
+        return sheetName;
+    }
+
+    public String getLogincredentialName() {
+        return logincredentialName;
+    }
+
     public DataInjections(){
         this.fullname = faker.name().username();
         this.email = faker.internet().emailAddress();
@@ -113,6 +125,10 @@ public class DataInjections {
         this.ageweb = faker.expression("37");
         this.salaryweb = faker.expression("10000000");
         this.departmentweb = faker.expression("contabilidad");
+        this.filepath = "resources/dataExcel.xlsx";
+        this.sheetName = "loginCredentials";
+        this.logincredentialName = "validations";
+
 
     }
 }

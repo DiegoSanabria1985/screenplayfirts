@@ -13,6 +13,6 @@ import org.junit.runner.Runner;
 @CucumberOptions(features = "src/test/resources/features/addTables.feature",
 glue = "com.demoqa.test.stepdefinitions",
 snippets = CucumberOptions.SnippetType.CAMELCASE,
-tags = "@regression")
+tags = "@Login")
 public class AddWebTableRunner {
 }

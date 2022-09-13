@@ -1,4 +1,5 @@
 Feature: add web table
+
 @regression
   Scenario: add web table
     Given make practice of the demoqa page
@@ -22,6 +23,16 @@ Feature: add web table
     Given I want to practice on the demoqa page
     When select the buttons on the screen
     Then it should show a success message
+
+
+  @Login
+  Scenario: Login succesful
+    Given that a web user wants to practice login in DemoQA
+    When he fills all the requested fields and he follows the steps using excel
+    Then he should see the correct validations with the excel
+
+
+
 
 
 

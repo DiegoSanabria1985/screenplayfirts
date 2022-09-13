@@ -19,6 +19,7 @@ public class FillAllFieldsValidatios implements Task {
         actor.should(seeThat(Validations.visible(TextBoxPage.NAME_VALIDATION)));
         //actor.should(seeThat(Validations.visible(RadioButton.SELECTED)));
 
+
     }
     public static  FillAllFieldsValidatios validatios(){
         return instrumented(FillAllFieldsValidatios.class);

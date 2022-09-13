@@ -17,6 +17,7 @@ public class openTheBrowser implements Interaction {
 
         actor.attemptsTo(Open.url(url));
 
+
     }
 
     public static openTheBrowser on (String url){

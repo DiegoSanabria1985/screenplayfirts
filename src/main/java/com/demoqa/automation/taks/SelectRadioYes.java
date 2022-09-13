@@ -14,6 +14,7 @@ public class SelectRadioYes implements Task {
         actor.attemptsTo(
                 Click.on(RadioButton.BUTTON_YES)
         );
+
     }
     public static SelectRadioYes radio(){
 
